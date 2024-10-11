@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'credit_card_scanner'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Fast, Accurate and Secure Credit & Debit card scanning library for flutter. This package is a fork of the original.'
   s.description      = <<-DESC
 A new Flutter plugin.
@@ -18,7 +18,7 @@ A new Flutter plugin.
   s.resources = 'Assets/*.png'
   s.dependency 'Flutter'
   s.dependency 'GoogleMLKit/TextRecognition'
-  s.platform = :ios, '10.0'
+  s.platform = :ios, '14.0'
   s.static_framework = true
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
