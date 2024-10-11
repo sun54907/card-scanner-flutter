@@ -3,14 +3,16 @@
 </p>
 <h2 align="center">Fast, Accurate and Secure Credit & Debit card scanner for Flutter </h2>
 
-[![](https://img.shields.io/pub/v/card_scanner)](https://pub.dev/packages/card_scanner)
+[![](https://img.shields.io/pub/v/credit_card_scanner)](https://pub.dev/packages/credit_card_scanner)
 [![](https://img.shields.io/badge/package-flutter-blue)](https://github.com/nateshmbhat/card-scanner-flutter)
 [![](https://img.shields.io/github/license/nateshmbhat/card-scanner-flutter)](https://github.com/nateshmbhat/card-scanner)
 [![](https://img.shields.io/github/languages/code-size/nateshmbhat/card-scanner-flutter)](https://github.com/nateshmbhat/card-scanner-flutter)
 [![](https://img.shields.io/badge/platform-android%20%26%20ios-bg)](https://github.com/nateshmbhat/card-scanner-flutter)
 [![](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fnateshmbhat%2Fcard-scanner-flutter)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fnateshmbhat%2Fcard-scanner-flutter)
 
-**card_scanner** is a flutter plugin for accurately and quickly scanning debit and credit cards.
+## This package is a fork of the original. All rights reserved to its creators.
+
+**credit_card_scanner** is a flutter plugin for accurately and quickly scanning debit and credit cards.
 
 ## Features
 
@@ -33,17 +35,17 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  card_scanner: <latest-version>
+  credit_card_scanner: <latest-version>
 ```
 
-> get the [latest version number here](https://pub.dev/packages/card_scanner#-installing-tab-)
+> get the [latest version number here](https://pub.dev/packages/credit_card_scanner#-installing-tab-)
 
 ## Usage
 
 Just import the package and call `scanCard`:
 
 ```dart
-import 'package:card_scanner/card_scanner.dart';
+import 'package:credit_card_scanner/credit_card_scanner.dart';
 var cardDetails = await CardScanner.scanCard();
 
 print(cardDetails);
@@ -65,7 +67,7 @@ The above code opens the device camera, looks for a valid card and gets the requ
 If you wish to obtain the card holder name and card issuer, you can specify the options:
 
 ```dart
-import 'package:card_scanner/card_scanner.dart';
+import 'package:credit_card_scanner/credit_card_scanner.dart';
 var cardDetails = await CardScanner.scanCard(
     scanOptions: CardScanOptions(
         scanCardHolderName: true,
@@ -91,4 +93,4 @@ Card Holder Name = PAUL SAMUELSON
 * Comment out the `use_frameworks!` line from under `Podfile` of your Flutter project. 
 You can find this `Podfile` under `your_flutter_project/ios/Podfile`
 
-### [Documentation & Samples](https://pub.dev/documentation/card_scanner/latest/) 📖
+### [Documentation & Samples](https://pub.dev/documentation/credit_card_scanner/latest/) 📖

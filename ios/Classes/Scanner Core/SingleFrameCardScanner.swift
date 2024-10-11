@@ -1,6 +1,6 @@
 //
 //  SingleFrameCardScanner.swift
-//  card_scanner
+//  credit_card_scanner
 //
 //  Created by Abhinav Kumar on 11/02/21.
 //

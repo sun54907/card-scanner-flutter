@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Demonstrates how to use the card_scanner plugin.",
+    "description": "Demonstrates how to use the credit_card_scanner plugin.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

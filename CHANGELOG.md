@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.0.5
+- Updated for Flutter 3
+
+## 1.0.4
+- Fixing problems to run your app in iOS
+
+## 1.0.3
+- Fixing iOS Bugs
+
+## 1.0.2
+- Formating files.
+
+## 1.0.1
+- Fixing problems to run your app
+
 #### 1.0.1-prerelease
 - ios bug fix
 

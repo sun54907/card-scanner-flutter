@@ -1,6 +1,6 @@
 // @author nateshmbhat created on 30,June,2020
 
-import 'package:card_scanner/utils.dart';
+import 'package:credit_card_scanner/utils.dart';
 
 class CardDetails {
   String _cardNumber = "";
@@ -28,7 +28,8 @@ class CardDetails {
     string += _cardNumber.isEmpty ? "" : 'Card Number = $cardNumber\n';
     string += _expiryDate.isEmpty ? "" : 'Expiry Date = $expiryDate\n';
     string += _cardIssuer.isEmpty ? "" : 'Card Issuer = $cardIssuer\n';
-    string += _cardHolderName.isEmpty ? "" : 'Card Holder Name = $cardHolderName\n';
+    string +=
+        _cardHolderName.isEmpty ? "" : 'Card Holder Name = $cardHolderName\n';
     return string;
   }
 

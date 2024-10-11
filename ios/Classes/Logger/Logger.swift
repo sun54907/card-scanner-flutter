@@ -1,6 +1,6 @@
 //
 //  Logger.swift
-//  card_scanner
+//  credit_card_scanner
 //
 //  Created by Mohammed Sadiq on 13/02/21.
 //

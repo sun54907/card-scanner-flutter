@@ -1,6 +1,6 @@
 // @author nateshmbhat created on 03,July,2020
 
-import 'package:card_scanner/card_scanner.dart';
+import 'package:credit_card_scanner/credit_card_scanner.dart';
 
 class CardUtils {
   final mastercard =
@@ -13,7 +13,7 @@ class CardUtils {
   final discover = RegExp(
       '^65[4-9][0-9]{13}|64[4-9][0-9]{13}|6011[0-9]{12}|(622(?:12[6-9]|1[3-9][0-9]|[2-8][0-9][0-9]|9[01][0-9]|92[0-5])[0-9]{10})\$');
   final instaPayment = RegExp('^63[7-9][0-9]{13}\$');
-  final jCB = RegExp('^(?:2131|1800|35\d{3})\d{11}\$');
+  final jCB = RegExp('^(?:2131|1800|35d{3})d{11}\$');
   final koreanLocalCard = RegExp('^9[0-9]{15}\$');
   final maestro = RegExp('^(5018|5020|5038|6304|6759|6761|6763)[0-9]{8,15}\$');
 

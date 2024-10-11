@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  card_scanner
+//  credit_card_scanner
 //
 //  Created by Abhinav Kumar on 12/02/21.
 //

@@ -1,6 +1,6 @@
 # card_scanner_example
 
-Demonstrates how to use the card_scanner plugin.
+Demonstrates how to use the credit_card_scanner plugin.
 
 ## Getting Started
 
